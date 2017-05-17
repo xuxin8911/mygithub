@@ -1,0 +1,9 @@
+F:\testwalk 目录下的文件:
+2016-07-12 18:14:57              0                             F:\testwalk\f1.txt
+2015-01-16 10:58:04              16,703,488                    F:\testwalk\python-2.7.8.msi
+2016-07-12 20:03:05              8                             F:\testwalk\r1\f2.txt
+2016-07-12 18:18:09              0                             F:\testwalk\r1\f22.txt
+2016-07-12 18:39:58              8                             F:\testwalk\r1\r2\f3.txt
+2016-07-12 18:39:48              28                            F:\testwalk\r1\r2\f33.txt
+2016-07-12 18:39:52              8                             F:\testwalk\r1\r2\f333.txt
+所列文件总数:  7 个文件   16,703,540 个字节

@@ -1,0 +1,90 @@
+group_name,rule_id,level,desc
+"syslog,errors",1001,2,File missing. Root access unrestricted.
+"syslog,errors",1002,2,Unknown problem somewhere in the system.
+"syslog,errors",1003,13,Non standard syslog message (size too large).
+"syslog,errors",1004,5,Syslogd exiting (logging stopped).
+"syslog,errors",1005,5,Syslogd restarted.
+"syslog,errors",1006,5,Syslogd restarted.
+"syslog,errors",1007,7,File system full.
+"syslog,errors",1008,5,Process exiting (killed).
+"syslog,errors",1009,0,Ignoring known false positives on rule 1002..
+"syslog,nfs",2100,0,NFS rules grouped.
+"syslog,nfs",2101,4,Unable to mount the NFS share.
+"syslog,nfs",2102,4,Unable to mount the NFS directory.
+"syslog,nfs",2103,4,Unable to mount the NFS directory.
+"syslog,nfs",2104,2,Automount informative message
+"syslog,xinetd",2301,10,Excessive number connections to a service.
+"syslog,access_control",2501,5,User authentication failure.
+"syslog,access_control",2502,10,User missed the password more than one time
+"syslog,access_control",2503,5,Connection blocked by Tcp Wrappers.
+"syslog,access_control",2504,9,Illegal root login. 
+"syslog,access_control",2505,3,Physical root login.
+"syslog,access_control",2506,3,Pop3 Authentication passed.
+"syslog,access_control",2507,0,OpenLDAP group.
+"syslog,access_control",2508,3,OpenLDAP connection open.
+"syslog,access_control",2509,5,OpenLDAP authentication failed.
+"syslog,access_control",2550,0,rshd messages grouped.
+"syslog,access_control",2551,10,Connection to rshd from unprivileged port. Possible network scan.
+"syslog,mail",2701,0,Ignoring procmail messages.
+"syslog,smartd",2800,0,Pre-match rule for smartd.
+"syslog,smartd",2801,0,Smartd Started but not configured
+"syslog,smartd",2802,0,Smartd configuration problem
+"syslog,smartd",2803,0,Device configured but not available to Smartd
+"syslog,linuxkernel",5100,0,Pre-match rule for kernel messages
+"syslog,linuxkernel",5101,0,Informative message from the kernel.
+"syslog,linuxkernel",5102,0,Informative message from the kernel
+"syslog,linuxkernel",5103,9,Ping of death attack.
+"syslog,linuxkernel",5104,8,Interface entered in promiscuous(sniffing) mode.
+"syslog,linuxkernel",5105,0,Invalid request to /dev/fd0 (bug on the kernel).
+"syslog,linuxkernel",5106,0,NFS incompability between Linux and Solaris.
+"syslog,linuxkernel",5107,0,NFS incompability between Linux and Solaris.
+"syslog,linuxkernel",5108,12,Availability of the system is in risk.
+"syslog,linuxkernel",5109,4,Kernel Input/Output error
+"syslog,linuxkernel",5110,4,IRC misconfiguration
+"syslog,linuxkernel",5111,0,Kernel device error.
+"syslog,linuxkernel",5112,0,Kernel usbhid probe error (ignored).
+"syslog,linuxkernel",5113,7,System is shutting down.
+"syslog,linuxkernel",5130,7,Monitor ADSL line is down.
+"syslog,linuxkernel",5131,3,Monitor ADSL line is up.
+"syslog,linuxkernel",5200,0,Ignoring hpiod for producing useless logs.
+"syslog,cron",2830,0,Crontab rule group.
+"syslog,cron",2831,0,Wrong crond configuration
+"syslog,cron",2834,5,Crontab opened for editing.
+"syslog,cron",2832,5,Crontab entry changed.
+"syslog,cron",2833,8,Root's crontab entry changed.
+"syslog, su",5300,0,Initial grouping for su messages.
+"syslog, su",5301,5,User missed the password to change UID (user id).
+"syslog, su",5302,9,User missed the password to change UID to root.
+"syslog, su",5303,3,User successfully changed UID to root.
+"syslog, su",5304,3,User successfully changed UID.
+"syslog, su",5305,4,First time (su) is executed by user.
+"syslog, su",5306,0,A user has attempted to su to an unknown class.
+"syslog,tripwire",7101,8,Problems with the tripwire checking
+"syslog,adduser",5901,8,New group added to the system
+"syslog,adduser",5902,8,New user added to the system
+"syslog,adduser",5903,2,Group (or user) deleted from the system
+"syslog,adduser",5904,8,Information from the user was changed
+"syslog,sudo",5400,0,Initial group for sudo messages
+"syslog,sudo",5401,10,Three failed attempts to run sudo
+"syslog,sudo",5402,3,Successful sudo to ROOT executed
+"syslog,sudo",5403,4,First time user executed sudo.
+"syslog,pptp",9100,0,PPTPD messages grouped
+"syslog,pptp",9101,0,PPTPD failed message (communication error)
+"syslog,pptp",9102,0,PPTPD communication error
+"syslog,fts",10100,4,First time user logged in.
+"syslog,squid",9200,0,Squid syslog messages grouped
+"syslog,squid",9201,0,Squid debug message
+"syslog,dpkg",2900,0,Dpkg (Debian Package) log.
+"syslog,dpkg",2901,3,New dpkg (Debian Package) requested to install.
+"syslog,dpkg",2902,7,New dpkg (Debian Package) installed.
+"syslog,dpkg",2903,7,Dpkg (Debian Package) removed.
+"syslog,yum",2930,0,Yum logs.
+"syslog,yum",2931,0,Yum logs.
+"syslog,yum",2932,7,New Yum package installed.
+"syslog,yum",2933,7,Yum package updated.
+"syslog,yum",2934,7,Yum package deleted.
+"syslog,yum",2935,0,Grouping for the mptscrih rules.
+"syslog,yum",2936,0,Grouping for the mptbase rules.
+"syslog,yum",2937,12,Posible Disk failure. SCSI controller error.
+"syslog,yum",2938,12,"SCSI RAID ARRAY ERROR, drive failed."
+"syslog,yum",2939,12,SCSI RAID is now in a degraded status.
